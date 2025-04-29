@@ -3,7 +3,7 @@ import React from "react";
 const First = () => {
   return (
     <div className="First_div">
-      <div style={{display:"flex",justifyContent:"space-between"}}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <h2>Overview</h2>
         <div className="button_first">
           <button style={{ color: "rgba(157, 173, 185, 1)" }}>...</button>
@@ -17,115 +17,115 @@ const First = () => {
           </button>
         </div>
       </div>
-      <table>
-        <tr>
-          <th>Owner</th>
-          <th>End date</th>
-          <th>Profits</th>
-          <th>Losses</th>
-          <th>Phone</th>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+      <div className="table">
+        <div className="thead">
+          <p>Owner</p>
+          <p>End date</p>
+          <p>Profits</p>
+          <p>Losses</p>
+          <p>Phone</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="" alt="No avatar?" />
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+        <div className="div_f">
+          <div style={{display:"flex",alignItems:"center",gap:"24px"}}> 
+            <img src="user1.svg" alt="" />
             <h5>Savannah Nguyen</h5>
-          </td>
-          <td>1/15/12</td>
-          <td>$328.85</td>
-          <td>$779.58</td>
-          <td>(603) 555-0123</td>
-        </tr>
-      </table>
+          </div>
+          <p>1/15/12</p>
+          <p className="pls">$328.85</p>
+          <p className="mns">$779.58</p>
+          <p>(603) 555-0123</p>
+        </div>
+      </div>
     </div>
   );
 };

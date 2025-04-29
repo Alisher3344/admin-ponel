@@ -8,8 +8,20 @@
 :root {
   --nav: rgba(54, 55, 64, 1);
   --navColor: rgba(164, 166, 179, 1);
+  --bg: white;
 }
-
+body.dark {
+  --nav: #1a1a1a; /* Dark mode nav color */
+  --navColor: #ff0000;
+  --bg:black;
+}
+body{
+  transition: 1s;
+  background-color: var(--bg);
+}
+body.dark table{
+  background-color: rgb(62, 59, 59);
+}
 nav {
   position: fixed;
   top: 0;
@@ -107,9 +119,18 @@ nav.close ~ header {
 .First_div {
   margin-top: 33px;
 }
-table{
-  width: 100%;
+.thead {
+  display: flex;
+  justify-content: space-between;
 }
-tr{
-  padding: 15px 18px;
+.pls {
+  color: rgba(0, 202, 57, 1);
+}
+.mns {
+  color: rgba(228, 64, 103, 1);
+}
+.div_f {
+  display: flex;
+  justify-content: space-between;
+  padding: 7.5px 0px;
 }

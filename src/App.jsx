@@ -1,11 +1,24 @@
 import { useState } from "react";
 import "./App.css";
 import First from "./pages/First";
+
 function App() {
   const [isNavClosed, setIsNavClosed] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleNav = () => {
     setIsNavClosed(!isNavClosed);
+  };
+
+  const toggleDarkMode = () => {
+    const newDarkMode = !isDarkMode;
+    setIsDarkMode(newDarkMode);
+
+    if (newDarkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
   };
 
   return (
@@ -56,7 +69,11 @@ function App() {
           </ul>
         </div>
         <div className="Navbody">
-          <div className="Nav_div">
+          <div
+            className="Nav_div"
+            onClick={toggleDarkMode}
+            style={{ cursor: "pointer" }}
+          >
             <img src="dark.svg" alt="No img?" />
             <p>Change mode</p>
           </div>
@@ -67,8 +84,8 @@ function App() {
         </div>
       </nav>
 
-      <header>
-        <div style={{ display: "flex", justifyContent: "space-between"  }}>
+      <header className={isNavClosed ? "nav-closed" : ""}>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
           <img
             src="ham.svg"
             alt="Menu"
