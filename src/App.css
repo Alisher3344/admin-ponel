@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --nav: rgba(54, 55, 64, 1);
+  --navColor: rgba(164, 166, 179, 1);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--nav);
+  width: 255px;
+  height: 100vh;
+  padding: 36px 0px 32px 0px;
+  color: var(--navColor);
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 1s;
+}
+.close {
+  width: 75px;
+}
+nav p {
+  transition: 0.5s;
+  pointer-events: auto;
+}
+
+nav.close p {
+  pointer-events: none;
+  opacity: 0;
+}
+.Nav_div {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  padding-left: 23px;
+}
+.Navbody {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+ul {
+  list-style: none;
+  margin-top: 53px;
+}
+ul li {
+  padding: 18px 24px 18px 30px;
+}
+a {
+  text-decoration: none;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  color: var(--navColor);
+  display: flex;
+  gap: 27px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 255px;
+  width: calc(100% - 250px);
+  transition: 1s;
+  padding: 29px 31px;
+}
+nav.close ~ header {
+  left: 73px;
+  width: calc(100% - 73px);
+}
+.header_Flex {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.header_Flex h2 {
+  font-family: Mulish;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+.button_first {
+  display: flex;
+  gap: 32px;
+}
+.button_first button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+.First_div {
+  margin-top: 33px;
+}
+table{
+  width: 100%;
+}
+tr{
+  padding: 15px 18px;
+}
