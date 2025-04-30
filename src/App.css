@@ -13,14 +13,24 @@
 body.dark {
   --nav: #1a1a1a; /* Dark mode nav color */
   --navColor: #ff0000;
-  --bg:black;
+  --bg: black;
 }
-body{
+body {
   transition: 1s;
   background-color: var(--bg);
 }
-body.dark table{
-  background-color: rgb(62, 59, 59);
+body.dark .First_div .pInTable {
+  color: white;
+}
+body.dark .h2InFirst {
+  color: white;
+}
+.h2InFirst {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 nav {
   position: fixed;
@@ -94,6 +104,9 @@ nav.close ~ header {
   left: 73px;
   width: calc(100% - 73px);
 }
+body.dark  h2{
+color: red;
+}
 .header_Flex {
   display: flex;
   gap: 14px;
@@ -133,4 +146,8 @@ nav.close ~ header {
   display: flex;
   justify-content: space-between;
   padding: 7.5px 0px;
+}
+.table{
+  display: flex;
+  flex-direction: column;
 }
